@@ -14,7 +14,7 @@ def homepage():
 
 # base url + /
 #http://localhost:8000 + /
-@app.route('/scrap',methods=['POST']) # route with allowed methods as POST and GET
+@app.route('/',methods=['POST']) # route with allowed methods as POST and GET
 def index():
     if request.method == 'POST':
         searchString = request.form['content'].replace(" ","") # obtaining the search string entered in the form
