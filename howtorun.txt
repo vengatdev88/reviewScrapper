@@ -33,7 +33,7 @@ Make sure we have the heroku cli installed
 # heroku login
 # heroku create
 # git remote -v
-# git push heroku masteraster
+# git push heroku master
 
 
 
